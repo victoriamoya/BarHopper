@@ -332,7 +332,7 @@ int main() {
     BarGraph graph = BarGraph(3.0);
     Bar obj;
 
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 100000; i++) {
         string name = randName();
         double rating = randRating();
         pair<double, double> coor = generateOneinRandomBars();
